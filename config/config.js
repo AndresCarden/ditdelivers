@@ -10,11 +10,11 @@ types.setTypeParser(1114, function(stringValue){
     return stringValue;
 });
 const databaseConfig = {
-       'host':'ec2-44-197-94-126.compute-1.amazonaws.com',
+       'host':'ec2-3-209-65-193.compute-1.amazonaws.com',
         'port':5432,
-        'database':'d6mouefp90j7v8',
-        'user':'qivtkqbpmhfuqc',
-        'password':'38ae3d33329e6f7cd1bfd4a0f1da2e8438d6de7d54431377ff81284e5d145099'
+        'database':'dag92oqc9qakug',
+        'user':'amfbynsjlhhdqd',
+        'password':'cb5c2ab934110d9d6544db572e9823bc7db506faac3801777bee3b8875c25a57'
 };
 const db = pgp(databaseConfig);
 module.exports = db;
